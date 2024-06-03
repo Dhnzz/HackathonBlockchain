@@ -1,0 +1,183 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "norek",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "saldo",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "lihatProfil",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "norek",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "saldo",
+								"type": "uint256"
+							},
+							{
+								"internalType": "address",
+								"name": "akun",
+								"type": "address"
+							}
+						],
+						"internalType": "struct User.Pengguna",
+						"name": "profil",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "pemilikAkun",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "norek",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "saldo",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "akun",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "pengguna",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "penggunas",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "norek",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "saldo",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "akun",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/1_User.sol": "User"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/1_User.sol": {
+			"keccak256": "0x6aa2db406f30ff9b84ef46234137ad6de99666e09053d2a4ef23198da8f41526",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://18065ad285b349ac1f00c6fa9a4f1b91be1dc2a131475f4d59af020b7f7b9e2a",
+				"dweb:/ipfs/QmdBgZ9bL5B8qXyvPvtQLUTwDngowcsHhjck66D6QyXuCV"
+			]
+		}
+	},
+	"version": 1
+}
